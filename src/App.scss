@@ -1,0 +1,93 @@
+.Pokedex {
+  display: flex;
+  flex-direction:column ;
+  overflow-x: hidden;
+
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to right, #9A99C6 0%, #C699B2 100%);
+
+  height: 100vh;
+  width: 100vw;
+  
+  margin: 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+
+  .topo-pokemon {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    height: 20vh;
+    width: 100vw;
+  }
+
+  .topo-pokemon img {
+    height: 80px!important;
+    width: 80px!important;
+  }
+
+  .topo-pokemon button {
+
+    min-height: 35px;
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 40px;
+    background-color: #7760CB;
+    color: #FFFFFF;
+    border: transparent;
+    margin-bottom: 30px;
+  }
+
+  .s2-cards {
+    display: flex;
+  
+
+    height: 70vh;
+    width: 70vw;
+
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    
+    
+  }
+
+  .cards {
+    display: flex;
+    padding: 1rem 0.4rem;
+
+
+    min-width: 15vw;
+
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 10px;
+    background-color: #95CEC4;
+
+    h3{
+      margin-bottom: -1rem;
+    }
+    
+  }
+
+
+  .card-foto {
+    border-radius: 50%;
+    background-color: #a6e3d8;
+    margin-top: 20px;
+  }
+
+  .foto-pok {
+    height: 15vh;
+  }
+}
